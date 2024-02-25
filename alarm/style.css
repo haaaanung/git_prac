@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #F7efef;
+}
+
+.board {
+    
+    padding : 50px;
+    padding-top :150px;
+    
+    
+}
+
+.head_body {
+    
+    background-color: #f97272;
+    border-radius: 5px;
+}
+
+.head > div ,
+.body .item > div {
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+.board .group {
+    width: 9%;
+    
+}
+
+.board .from {
+    width: 15%;
+}
+
+.board .date {
+    width: 10%;
+}
+
+.board .title {
+    width: 60%;
+}
+
+.board .button {
+    width: 5%;
+}
+
+.head,
+.body .item {
+    padding: 10px;
+    font-size: 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.head > div {
+    font-weight: 600;
+}
+
+.board .title a:hover {
+    text-decoration: double;
+}
+
+/* page */
+
+.page {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.page a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.page a.bt {
+    width: 32px;
+    height: 32px;
+    background-color: #ccc;
+    background-image: url(../page_bt.png);
+    background-repeat: no-repeat;
+    text-indent: -2000px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+.page a.first{
+    background-position: 10px -40px;
+}
+
+.page a.prev{
+    background-position: 10px 11px;
+    margin-right: 5px;
+}
+
+.page a.next{
+    background-position: -39px 11px;
+    margin-left: 5px;
+}
+
+.page a.last{
+    background-position: -39px -39px;
+}
+
+.page a.num {
+    margin-left : 0 5px;
+}
+
+.page a.bt:hover {
+    background-color: #999;
+}
+
+.page a.num:hover {
+    text-decoration: double;
+}
+/* btn */
+input#check_btn {
+    position: relative;
+    left : 30px;
+}
